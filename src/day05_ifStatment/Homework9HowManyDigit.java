@@ -1,4 +1,4 @@
-package day05_ifStatment;
+ package day05_ifStatment;
 
 import java.util.Scanner;
 
@@ -36,10 +36,10 @@ public class Homework9HowManyDigit {
 		        if (num >= 100 && num <= 999) {
 		        	System.out.println("3 Digits");
 		        }
-		        if (num >= 1000 && num <= 1999) {
+		        if (num >= 1000 && num <= 9999) {
 		        	System.out.println("4 Digits");
 		        }
-		        if (num >= 10000 && num <= 19999) {
+		        if (num >= 10000 && num <= 99999) {
 		        	System.out.println("5 Digits");
 		        }
 		
@@ -52,6 +52,10 @@ public class Homework9HowManyDigit {
 			System.out.println("Invalid number");
 		
 		input.close();
+		
+		
+		
+		
 	}//end method
 
 }//end class
