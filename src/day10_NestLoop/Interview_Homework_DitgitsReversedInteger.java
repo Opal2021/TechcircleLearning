@@ -2,7 +2,7 @@ package day10_NestLoop;
 
 import java.util.Scanner;
 
-public class Homework_DitgitsReversed {
+public class Interview_Homework_DitgitsReversedInteger {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -21,16 +21,41 @@ public class Homework_DitgitsReversed {
 		
 	String comvertToString = String.valueOf(userInput);
 	
+	//String convertToString  = ""+userInput;
+	
 	//for(int i = 0 ; i >= comvertToString.length()-1 ;i++) {
 	
 	for(int i = comvertToString.length()-1 ; i >= 0 ;i--) {
 		
 		System.out.print(comvertToString.charAt(i));
 		
+		
 	}
+	
+	int convertToInt = Integer.parseInt(comvertToString);
+	
+	System.out.println("");
+	
 	
 		input.close();
 		
+		
+		// Method 2 Reverse number
+		int num = 12345
+				
+				;
+		int reversenum =0;
+		
+		 while( num != 0 )
+	      {
+	          reversenum = reversenum * 10;
+	          reversenum = reversenum + num%10; //2
+	          num = num/10;
+	      }
+
+	      System.out.println("Reverse of input number is: "+reversenum);
+		
+	
 		
 	}//end method
 

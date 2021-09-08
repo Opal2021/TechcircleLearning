@@ -1,6 +1,6 @@
 package day10_NestLoop;
 
-public class Homework_ExtractLetters {
+public class Interview_Homework_ExtractLetters {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -90,6 +90,98 @@ public class Homework_ExtractLetters {
 //		System.out.println(value_0);//48
 //		System.out.println(value_9);//57
 		
+		
+		// Irfan Method convert using .contains
+		
+		
+		String alphanumeric1 = "a1b2c34d098098efg";
+		
+		String referanceData = "abcdefghijklmnopqrstuvwxyz";
+		
+		for(int i = 0; i <alphanumeric1.length(); i++ ) {
+//			System.out.println(i);
+			
+//			char currentChar = alphanumeric.charAt(i);
+			String currentChar = Character.toString(alphanumeric1.charAt(i));
+					
+			if (referanceData.contains(currentChar)) {
+				System.out.println(currentChar);
+			}	
+			
+		}
+		
+		//Irfan Method
+	
+    String alphanumeric = "a1b2c34d098098efg";
+		
+		
+		char a = 'a';
+		
+		int numA = a;
+		
+		char z = 'z';
+		
+		int numZ = z;
+		
+		System.out.println(numA);
+		System.out.println(numZ);
+		
+		
+		
+		for(int i = 0 ; i < alphanumeric.length(); i++ ) {
+			
+			
+			char currentChar = alphanumeric.charAt(i);
+			
+//			System.out.println(currentChar);
+			
+			
+			int num = currentChar;
+			
+//			System.out.println(num);
+			
+			
+			if (num >= numA && num <= numZ) {
+				System.out.print(currentChar);
+				
+			}
+			
+		}
+		
+		
+		// Park Method
+		
+		
+            for(int i = 0 ; i < alphanumeric.length(); i++ ) {
+			
+			int num = alphanumeric.charAt(i);
+			
+			if (num >= 97 && num <= 122) {
+				
+				System.out.print(alphanumeric.charAt(i));
+			}
+		}
+		System.out.println();
+            
+          for(int i = 0 ; i < alphanumeric.length(); i++)  {
+        	  
+        	  int num = alphanumeric.charAt(i);
+        	  
+        	  if (num >= 48 && num <= 57) {
+        		  
+        		System.out.print(alphanumeric.charAt(i));  
+        	  }
+        	  
+          }
+            
+            
+            
+            
+            
+            
+            
+            
+            
 	}//end method
 
 }//end class

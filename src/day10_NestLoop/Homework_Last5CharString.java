@@ -121,6 +121,58 @@ public class Homework_Last5CharString {
 		}
 		
 		}
+		
+	// Irfan Method
+		
+		
+		
+		
+        String str = "computer12345";
+		
+		if (str.length() == 5) {
+			System.out.println(str);
+		}
+		
+		
+		if (str.length() < 5) {
+			
+			String str2 = str+"123456789";
+			
+			System.out.println(str2.substring(0, 5));
+			
+			
+		}
+		
+		if (str.length() > 5) {
+			System.out.println(str.substring(str.length()-5));
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}//end method
 
 }//end class

@@ -38,6 +38,37 @@ public class Homework_infiniteLoop {
 		System.out.println(sum);
 		
 		input.close();
-		}//end method
+		
+		
+//Task3	
+		
+//		3, Write a program that calculates the sum of numbers entered 
+//		by the user until user enters a negative number.
+//		hint: you need an infinite loop
+		
+//		Scanner scan = new Scanner(System.in);
+//		
+//		int sum = 0 ;
+//		
+//		int num = 0;
+//		
+//		
+//		do {
+//			
+//			System.out.println("Plase enter a number");
+//			
+//			num = scan.nextInt();
+//			
+//			sum += num;
+//			
+//		}while(num > -1);
+//		
+//		
+//		System.out.println(sum);
+//		scan.close();
+//		
+		
+		
+	}//end method
 
 }//end class
