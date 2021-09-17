@@ -39,7 +39,7 @@ public class ReturnMethod {
 		System.out.println(addMe(10, 20));//second way
 
 		
-		String inputName = name("Park");
+		String inputName = name("FuqTaaddd");
 		
 		System.out.println("my name is: " + name("Park"));//first way
 		
@@ -48,7 +48,26 @@ public class ReturnMethod {
 		
 		
 		
-		}//end main method
+		checkAge(55);
+		
+//		double moneyInputDollar    = 3;
+//		
+//		double thaiBaht            = 33.3;
+//		
+//		double result              = moneyInputDollar * thaiBaht;
+//		
+//		
+	
+		double result2 = conveter(54);
+		
+	       System.out.println(result2);
+	       
+	       int sum1 = totalsum();
+	      
+	       System.out.println(sum1);
+		
+		
+	}//end main method
 
 // same class need "static" and can not return
 public static void printThis () {
@@ -57,7 +76,7 @@ public static void printThis () {
 }
 
 // This one can return
-// You need  type return and name to return the method and word "return"
+// You need  return type  and name to return the method and word "return" 
 // you need to sysout in main method
 
 public static int totalsum () {
@@ -80,9 +99,25 @@ public static String name (String x) {
     
 	return myName;
 }
+// void can not return
+public static void checkAge(int age) {
+	
+	if(age >= 18) {
+		System.out.println("You in");
+	}else
+		System.out.println("you out");
+	
+}
 
-
-
-
+public static double conveter(double moneyInputDollar ) {
+	
+	
+	double thaiBaht            = 33.3;
+	
+	double result              = moneyInputDollar * thaiBaht;
+	
+	return result;
+	
+}
 
 }//end class

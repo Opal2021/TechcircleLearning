@@ -1,6 +1,6 @@
 package day18_ArraysList;
 
-public class AutoBoxing {
+public class AutoBoxingAndUnBoxing {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

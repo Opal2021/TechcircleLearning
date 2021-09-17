@@ -6,7 +6,7 @@ public class GradeEvaluation {
 		// TODO Auto-generated method stub
 
 		
-		char grade = 'F';
+		char grade = 'A';
 		switch (grade) {
 		case 'A':
 //			System.out.println("Pass");
