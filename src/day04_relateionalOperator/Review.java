@@ -62,20 +62,6 @@ public class Review {
 	
 	System.out.println(num1 != num3);// true
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	}//end method
 	
 

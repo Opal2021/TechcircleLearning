@@ -82,23 +82,7 @@ public class Homework1 {
 		
 		
 		
-     
-        
-        
-        
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}//end method
+    }//end method
 
 }//end class
 

@@ -21,8 +21,7 @@ public class TernaryOperator {
 //      true           get this value		
 //      condition	
 		
-		b = (a == 10) ? 20 : 30;
-		
+		b = (a == 10) ? 20 : 30;//20
 		
 		System.out.println(b); // in line statement
 		

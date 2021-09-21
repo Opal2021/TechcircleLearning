@@ -1,4 +1,4 @@
-package allStringUtil;
+package allUtil;
 
 public class StringUtil {
 
@@ -166,7 +166,21 @@ public static String formatFullname(String firstName, String lastName ) {
 	return fullName;
 	
 	}
+//end method formatFullname
 
-}//end method formatFullname
+//public static boolean palindrome(String str) {
+//
+//	boolean palindrome = false;
+//
+//	if (reverseString(str).equals(str)) {
+//
+//		palindrome = true;
+//
+//	}
+//	return palindrome;
+//
+//
+}
+
 		
-//end class}
+//end class

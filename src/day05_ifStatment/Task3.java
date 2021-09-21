@@ -20,10 +20,10 @@ public class Task3 {
 			17—24
 		 */
 		
-		Scanner Por = new Scanner(System.in);
+		Scanner Scan = new Scanner(System.in);
 		System.out.println("Please type a time ?");
 
-		int Time = Por.nextInt();
+		int Time = Scan.nextInt();
 		
 		
 		int time = 15;
@@ -53,7 +53,7 @@ public class Task3 {
 			}
 					
 					
-		Por.close();	
+		Scan.close();	
 		
 		
 		

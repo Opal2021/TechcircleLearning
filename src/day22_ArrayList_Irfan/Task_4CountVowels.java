@@ -25,42 +25,56 @@ public class Task_4CountVowels {
 		// i : 4	
 		
 //		
-		String sentence = "The utility package contains all the classes and interfaces";	
-		
-		char[] charSentence = sentence.toCharArray();
-		
-		char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
-		
+		String str = "Welcome to TechCircle";
+
+		String volwels = "aeiou";
+
 		char thirdVowel = ' ';
-		
+
 		int numOfVowels = 0;
-		
-		boolean ifFound = true;
-		
-		for (int i = 0; i < charSentence.length; i++) {
-			while (numOfVowels < 3) {
-				for (char x : vowels) {
-					if (x == charSentence[i]) {
-						numOfVowels++;
-						break;
-					}
-					if (numOfVowels == 3) {
-						thirdVowel = charSentence[i];
-					}
-				}		
+
+		//System.out.println("Third vowel is " + thirdVowel);
+
+		// Finding the third vowel: e
+
+		for (int i = 0; i < str.length(); i++) {
+
+			char eachChar = str.charAt(i);
+
+//			System.out.println(eachChar);
+
+			if (volwels.contains(Character.toString(eachChar))) {
+
+				numOfVowels++;
+
+				if (numOfVowels == 3) {
+					System.out.println("I Found my third volwel" + eachChar);
+					thirdVowel = eachChar;
+				}
+
 			}
+
 		}
-		
+
+//		System.out.println(thirdVowel);
+
+		// How many times does the third vowel occur in the string
 		int count =0;
-		
-		for(char x: charSentence) {
-			if(thirdVowel == x) {
+
+		for (int i = 0; i < str.length(); i++) {
+
+			char eachChar = str.charAt(i);
+			
+			if (eachChar == thirdVowel) {
 				count++;
 			}
+			
+			
+			
 		}
 		
-		System.out.println("Third vowel is "+thirdVowel);
-		System.out.println("occurs "+count+" times");
+		System.out.println("Third vowel <"+thirdVowel+"> occur in the string "+count+" times");
+		
 	}//
 
 }//

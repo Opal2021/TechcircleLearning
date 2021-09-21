@@ -47,7 +47,7 @@ String str = "ABCEFG";
  			
  			//System.out.println((names[i]));
  			
- 			allStringUtil.StringUtil.reverseString(names[i]);
+ 			allUtil.StringUtil.reverseString(names[i]);
  			
 	}	
                System.out.println();
@@ -56,7 +56,7 @@ String str = "ABCEFG";
 	 			
 	 			//System.out.println((names[i]));
          
-	 			allStringUtil.StringUtil.reverseString(names[i]);
+	 			allUtil.StringUtil.reverseString(names[i]);
 		 }
 		 
 		 

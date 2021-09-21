@@ -9,7 +9,7 @@ public class Task4_Unique {
 	public static void main(String[] args) {
 		
 		
-		String actualResult   = allStringUtil.StringUtil.unique("aaabbbccc");
+		String actualResult   = allUtil.StringUtil.unique("aaabbbccc");
 		
          String expectedResult = "abc";
 		
@@ -21,7 +21,7 @@ public class Task4_Unique {
 		
 		
 		
-		System.out.println( allStringUtil.StringUtil.unique("aaabbbcccdddddddddeeeeeeeeeefffffffffff"));
+		System.out.println( allUtil.StringUtil.unique("aaabbbcccdddddddddeeeeeeeeeefffffffffff"));
 		
 		
 		
@@ -55,10 +55,30 @@ public class Task4_Unique {
 //	
 //	}
 	
+	// Irfan method
 	
+//	public static void uniqueElements(int arr[]) {
+//ArrayList<Integer> list = new ArrayList<>();
+//for (int i = 0; i < arr.length; i++) {
+//	if (!list.contains(arr[i])) {
+//		list.add(arr[i]);
+//	}
+//}
+//System.out.println(list);
+//}
 	
+	//return
 	
-	
+//	public static ArrayList<Integer> uniqueElements(int arr[]) {
+//		ArrayList<Integer> list = new ArrayList<>();
+//		for (int i = 0; i < arr.length; i++) {
+//			if (!list.contains(arr[i])) {
+//				list.add(arr[i]);
+//			}
+//		}
+//		
+//		return list;
+//	}
 	
 	
 

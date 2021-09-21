@@ -9,7 +9,7 @@ public class Task13_FindDulicate {
 		 int[] my_array = {1, 2, 5, 5, 6, 6, 7, 2};
 
 		
-		
+		// avoid to print multiple not found
 		boolean flag = false;
 		
 		for(int i = 0 ; i < my_array.length ; i++) {

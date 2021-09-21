@@ -9,7 +9,7 @@ public class ReviewArraysListWithPark {
 		// TODO Auto-generated method stub
 
 		//ARRAYLIST*********
-		// ArrayList Review: Add, Set, Remove, clear, size. to Print ==> get ()
+		// ArrayList Review: Add, Set(replace), Remove, clear, size. to Print ==> get ()
 
 		ArrayList <Integer> num = new ArrayList <Integer> (Arrays.asList(11, 22, 33));
 		// num.add(0 , 11);

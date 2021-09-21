@@ -27,21 +27,6 @@ public class TargetUserRegisteration {
 		
 		System.out.println("Password : "+ password);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}//end method
 
-}//end calss
+}//end class
