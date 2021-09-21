@@ -9,11 +9,25 @@ public class Task7_ {
 //	    looking for "hello"
 //	    output: 1 time
 
+	    String str = "Hello java";
 	    
+	    String word [] = str.split(str);
 	    
+	    int count = 0;
 	    
+	    String target = "";
 	    
+	    for (int i = 0 ; i < str.length(); i++) {
 	    
+	         if(target.equals(word)) {
+	         
+	         count ++;
+	         
+	    }
+	    
+	}
+	    
+	    System.out.println(count);
 	    
 	    
 	    

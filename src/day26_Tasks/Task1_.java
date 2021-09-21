@@ -12,49 +12,50 @@ public class Task1_ {
 //	     * output 1
 //		
 		
-         String str = "hello";
+        
+		String word = "Hellook";
+
+		char wordArr [] = word.toCharArray();
+
+		int[] freq = new int[word.length()]; //6
+
+		for (int i = 0; i < wordArr.length; i++) {
+			
+		        freq[i] = 1;
 		
-		int count =  0;
+		           // System.out.println(word.charAt(i));
 		
-		for (int i = 0 ;i < str.length(); i++) {
+		for (int j = i+1; j < wordArr.length; j++) {
 			
-			char a = ' ';
-			
-			for(int j = i+1 ;j < str.length(); j++) {
-				
-				if (str.charAt(i) == str.charAt(j)) {
-					
-					a = str.charAt(i);
-					
-					
-					
-					count++;
-					
-				}
-				
-				System.out.println(a);
-			}
-			
-			
-				
-				
-			
+		      if(wordArr[i] == wordArr[j]){
+		
+			     freq[i]++;
+                  
+			     wordArr[j] = '0';
+			     
+		      }
 		}
+}
+
+		for(int i = 0; i <freq.length; i++) {
 		
+			if(wordArr[i] != ' ' && wordArr[i] != '0')
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				System.out.println(wordArr[i] + "-" + freq[i]);
+		}
+	
 	}//end method
+	
+	
+	public static int FindNumOfChar(String str, char ch) {
+		int count = 0;
+		for (int i = 0; i < str.length(); i++) {
+			char eachChar = str.charAt(i);
+			if (ch == eachChar) {
+				count++;
+			}
+		}
+		return count;
+	}
 
 }//end class
