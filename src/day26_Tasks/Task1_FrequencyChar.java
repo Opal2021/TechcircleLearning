@@ -1,6 +1,6 @@
 package day26_Tasks;
 
-public class Task1_ {
+public class Task1_FrequencyChar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -43,19 +43,15 @@ public class Task1_ {
 		
 				System.out.println(wordArr[i] + "-" + freq[i]);
 		}
+		
+		
+		
+		
+		
 	
 	}//end method
 	
 	
-	public static int FindNumOfChar(String str, char ch) {
-		int count = 0;
-		for (int i = 0; i < str.length(); i++) {
-			char eachChar = str.charAt(i);
-			if (ch == eachChar) {
-				count++;
-			}
-		}
-		return count;
-	}
+	
 
 }//end class
