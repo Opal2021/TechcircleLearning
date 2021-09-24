@@ -29,12 +29,6 @@ this.color =color ;
 	
 	
 }	
-	
-	
-	
-	
-	
-	
 	public  void barking() {
 		System.out.println(age);
 		System.out.println(breed);
