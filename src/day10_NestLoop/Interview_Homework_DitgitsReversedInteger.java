@@ -1,4 +1,4 @@
-package day10_NestLoop;
+ package day10_NestLoop;
 
 import java.util.Scanner;
 
@@ -27,8 +27,8 @@ public class Interview_Homework_DitgitsReversedInteger {
 	
 	for(int i = comvertToString.length()-1 ; i >= 0 ;i--) {
 		
-		System.out.print(comvertToString.charAt(i));
 		
+		System.out.print(comvertToString.charAt(i));
 		
 	}
 	
@@ -41,7 +41,8 @@ public class Interview_Homework_DitgitsReversedInteger {
 		
 		
 		// Method 2 Reverse number
-		int num = 12345
+		
+	    int num = 12345
 				
 				;
 		int reversenum =0;
